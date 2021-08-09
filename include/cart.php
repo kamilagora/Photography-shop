@@ -40,4 +40,12 @@ class Cart
         $database->delete("cart", 1);
         return true;
     }
+
+
+    public static function ClearCart(): void
+    {
+        $database = MysqliDb::getInstance();
+        $database->where("user_id", Me::GetUser()->GetData()["id"]);
+        $database->delete("cart");
+    }
 }

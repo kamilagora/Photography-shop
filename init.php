@@ -1,8 +1,5 @@
 <?php
 
-use Curl\Url;
-
-require_once BASE_DIR . "/lib/Curl.php";
 require_once BASE_DIR . "/lib/MysqliDb.php";
 require_once BASE_DIR . "/include/auth.php";
 require_once BASE_DIR . "/include/session.php";
@@ -11,6 +8,7 @@ require_once BASE_DIR . "/include/me.php";
 require_once BASE_DIR . "/include/product.php";
 require_once BASE_DIR . "/include/store.php";
 require_once BASE_DIR . "/include/cart.php";
+require_once BASE_DIR . "/include/order.php";
 
 $database = new MysqliDb(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 

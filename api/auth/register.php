@@ -1,8 +1,6 @@
 <?php
 
 require_once "../../settings.php";
-require_once BASE_DIR . "../template/navbar.php";
-require_once BASE_DIR . "../template/footer.php";
 
 
 $username = POST("username", true);

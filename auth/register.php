@@ -1,6 +1,8 @@
 <?php
 
 require_once "../settings.php";
+require_once BASE_DIR . "/template/navbar.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +40,7 @@ require_once "../settings.php";
                 <input id="accept_tos" class="custom-control-input" type="checkbox" name="accept_tos" value="true" required>
                 <label for="accept_tos" class="custom-control-label">I accept <a href="https://example.com" target="_blank">Terms of Service</a></label>
             </div>
-            <button class=" btn btn-primary float-right" type="submit">Submit</button>
+            <button class=" btn btn-primary float-right" type="submit">Sign Up</button>
         </div>
 
     </form>

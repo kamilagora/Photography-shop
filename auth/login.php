@@ -1,6 +1,7 @@
 <?php
 
 require_once "../settings.php";
+require_once BASE_DIR . "/template/navbar.php";
 ?>
 
 <!DOCTYPE html>
@@ -27,7 +28,7 @@ require_once "../settings.php";
                 <input id="password" class="form-control" type="password" name="password" required>
             </div>
 
-            <button class=" btn btn-primary float-right" type="submit">Submit</button>
+            <button class=" btn btn-primary float-right" type="submit">Log In</button>
     </div>
 
     </form>
